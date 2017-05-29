@@ -123,6 +123,11 @@ public class Client{
 * 简单工厂模式最大的优点在于实现对象的创建和对象的使用分离，将对象的创建交给专门的工厂类负责，但是其最大的缺点在于工厂类不够灵活，增加新的具体产品需要修改工厂类的判断逻辑代码，而且产品较多时，工厂方法代码将会非常复杂。
 * 简单工厂模式适用情况包括：工厂类负责创建的对象比较少；客户端只知道传入工厂类的参数，对于如何创建对象不关心。
 
+**7.附录**
+
+简单工厂设计模式的UML图
+![简单工厂设计模式的UML图](http://oqpebjwqa.bkt.clouddn.com/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82UML.png)
+
 **参考文献：**
 
 [简单工厂模式](http://design-patterns.readthedocs.io/zh_CN/latest/creational_patterns/simple_factory.html)
